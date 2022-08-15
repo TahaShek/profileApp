@@ -1,0 +1,64 @@
+#thehero {
+    width: 98.7vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../../../../assets/hero_1.jpeg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+       
+    }
+    
+    .the-inner {
+        /* background-color: rgba(256,256,256,0.8); */
+        width: 90vw;
+        padding: 1rem;
+    }
+    
+    .the-inner h1{
+    color:white;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 5rem;
+    
+    }
+    
+    .the-inner p {
+    color: #606061;
+    text-align: center;
+    font-size: 1.1rem;  
+    }
+    
+    
+    
+    .the-inner a {
+    color: #000000;
+    }
+    
+    .the-inner .points p:before{
+      content: url(https://chrislanejones.com/wp-content/uploads/2018/10/littlesquarebullet.png);
+      padding: 0 1rem 0 0;
+    }
+    .menu{
+        background-color: rgb(25,25,25);
+        font-style: italic;
+    }
+    .menu-p{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .the-p{
+        color: rgba(255, 255, 255, 0.3);
+        font-size: 18px;
+        line-height: 1.5;
+        font-style: italic;
+    }
+    
+    
